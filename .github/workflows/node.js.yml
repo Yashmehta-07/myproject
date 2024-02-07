@@ -48,9 +48,9 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t yashmehta07/test1:latest .
-          docker push yashmehta07/test1:latest
+          docker build -t yashmehta07/test2:latest .
+          docker push yashmehta07/test2:latest
 
       - name: Deploy Docker container
         run: |
-          docker run -p 3000:3000 yashmehta07/test1:latest
+          docker run -p 3000:3000 yashmehta07/test2:latest
