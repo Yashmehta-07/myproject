@@ -53,4 +53,4 @@ jobs:
 
       - name: Deploy Docker container
         run: |
-          docker run -p 3000:3000 yashmehta07/test2:latest
+          docker run -d -p 3000:3000 yashmehta07/test2:latest
